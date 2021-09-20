@@ -1,0 +1,12 @@
+<h3>List of Companies</h3>
+<p>
+    <button (click)="addCompany()">Add Company</button>
+</p>
+<p>
+    <input type="text" placeholder="Enter Company ID" #companyID>
+    <br><br>
+    <button (click)="getByID(companyID.value)">Get Company</button>
+    <br><br>
+    <button (click)="deleteCompany(companyID.value)">Delete Company</button>
+</p>
+<a routerLink=''>Go to User</a>
